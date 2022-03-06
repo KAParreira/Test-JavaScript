@@ -1,0 +1,115 @@
+#boxC{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #000;
+}
+
+.dropbut {
+	 
+	 background-color:#CC00FF;
+     color: black;
+     padding: 15px;
+     font-size: 15px;
+     border: none;
+     cursor: pointer;
+	 
+	 
+}
+.dropbut:hover{
+  background-color: #2980B9;
+}
+
+.dropbox {	 
+	
+     display: inline-block;
+	 padding:1% 2%;
+}
+
+.dropMenu {
+	 
+	 display: none;
+     position: absolute;
+	 min-width: 160px;
+	 background-color:#CC00FF;
+     overflow: auto;
+     box-shadow: 0px 8px 10px 5px rgba(0,0,0,0.2);
+	 z-index: 1;
+    
+      
+}
+.dropMenu a {
+	 
+	 color: black;
+     padding: 15px 25px;
+	 text-decoration: none;
+	 display:block;
+}
+
+.dropbox a:hover {background-color: #2980B9;}
+
+.show {display: block;}
+
+.box{
+	
+	background-color:#4B0082;
+}
+
+#boxNi {
+	 
+	 background-color:#A020F0;
+     width:100%; height:525px;
+	 
+}
+
+button {
+	 
+	 background-color:#00FFFF;
+	 padding:1% 3%;
+	 border:none;
+	 margin-left:1%;
+	 cursor:pointer;
+}
+
+.btn{
+  background-color: #FFA500;
+  margin-left: 45%;
+}
+
+iframe {
+	 
+	 width:70%;
+	 height:75%;
+	 margin-left:14%;
+	 padding-top:5%;
+	 
+}
+
+h1 {
+	 color:#00fffb;
+}
+
+#Container{
+	background-image: url("../image/back.jpg");
+	background-repeat: no-repeat; 
+	width:1000px;
+	height:600px;
+	position: relative;
+	margin-left: 12%;
+	
+}
+
+#Animate {
+	width: 71px;
+	height: 105px;
+	position: absolute;
+	background-image: url("../image/loli.png");
+	background-repeat: no-repeat;
+    margin-top: 45%;
+}
+
+.MoveYourBody{
+	background-color:#d40808;
+}
